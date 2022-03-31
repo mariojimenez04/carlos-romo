@@ -1,0 +1,29 @@
+body{
+    background-color: #000;
+}
+
+img{
+    max-width: 90%;
+}
+
+.style {
+    display: flex;
+    animation-name: style;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+}
+
+@keyframes style {
+    from{
+        transform: rotate(0deg)
+    }to{
+        transform: rotate(360deg)
+    }
+    
+}
+
+.centrado {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
