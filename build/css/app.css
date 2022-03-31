@@ -7,10 +7,10 @@ img{
 }
 
 .style {
-    display: flex;
+    /* display: flex;
     animation-name: style;
     animation-duration: 1.5s;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
     visibility: visible;
     opacity: 1;
 }
