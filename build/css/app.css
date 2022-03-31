@@ -9,21 +9,32 @@ img{
 .style {
     display: flex;
     animation-name: style;
-    animation-duration: .8s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
-}
-
-@keyframes style {
-    from{
-        transform: rotate(0deg)
-    }to{
-        transform: rotate(360deg)
-    }
-    
+    visibility: visible;
+    opacity: 1;
 }
 
 .centrado {
     display: grid;
     place-items: center;
     height: 100vh;
+}
+
+.centrado.logo {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes style {
+    from{
+        transform: rotate(0deg)
+    }to{
+        transform: rotate(680deg)
+    }
+    
+}
+
+.color-morado {
+    color: #5e60ce;
 }

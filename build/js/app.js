@@ -7,18 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function app(){
-    LOGO.classList.add('logo');
 
     setTimeout(() => {
-        LOGO.classList.remove('logo');
+        LOGO.classList.add('logo');
+    }, 1000);
+
+    setTimeout(() => {
         LOGO.style.display = 'none';
-    }, 4000);
-
-    const remove = LOGO.parentElement;
-
-    console.log(remove)
-
-    // setTimeout(() => {
-        
-    // }, 4500);
+    }, 1800);
 }
