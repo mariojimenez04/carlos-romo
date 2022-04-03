@@ -359,7 +359,7 @@ box-sizing: border-box;
 }
 
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 2rem;
     line-height: 1.4;
     background-color: #000;
@@ -382,7 +382,7 @@ img{
 }
 
 .img-small{
-    width: 7rem;
+    width: 8rem;
     display: block;
 }
 
@@ -419,6 +419,7 @@ img{
 .btn-1{
     background-color: #023e8a;
     color: #fff;
+    border-radius: 1rem;
 }
 
 .special{
