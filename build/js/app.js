@@ -1,4 +1,5 @@
 const LOGO = document.querySelector('#logo');
+const CONTROL = document.querySelector('#control');
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -10,9 +11,13 @@ function app(){
 
     setTimeout(() => {
         LOGO.classList.add('logo');
-    }, 1000);
+    }, 2500);
 
     setTimeout(() => {
         LOGO.style.display = 'none';
-    }, 1800);
+    }, 3500);
+
+    setTimeout(() => {
+        CONTROL.classList.remove('display-none');
+    }, 3500);
 }
